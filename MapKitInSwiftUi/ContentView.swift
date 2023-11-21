@@ -6,19 +6,34 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    @StateObject var viewModel = ContentViewModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack{
+            Button("Subscribe") {
+                            viewModel.fetchData()
+                        }
+            if let weather = viewModel.weather{
+                Text("Current Temprature : \(weather.currentTemprature)")
+                ForEach(weather.forecast , id: \.self){
+                    temp in
+                    Text("ForeCasted: \(temp)")
+                }
+            }else{
+                Text("Loding data")
+            }
+            
+            Button("Cancel Subscription") {
+                            viewModel.cancelSubscription()
+                        }
         }
-        .padding()
     }
 }
 
+
+// Preview the ContentView
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

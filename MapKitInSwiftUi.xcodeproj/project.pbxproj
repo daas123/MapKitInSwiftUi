@@ -11,6 +11,7 @@
 		929F1AF42B0B686800D186DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929F1AF32B0B686800D186DE /* ContentView.swift */; };
 		929F1AF62B0B686E00D186DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929F1AF52B0B686E00D186DE /* Assets.xcassets */; };
 		929F1AF92B0B686E00D186DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929F1AF82B0B686E00D186DE /* Preview Assets.xcassets */; };
+		92A8AA5C2B0C96AC00CF80B1 /* ContentViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8AA5B2B0C96AC00CF80B1 /* ContentViewmodel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		929F1AF32B0B686800D186DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		929F1AF52B0B686E00D186DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929F1AF82B0B686E00D186DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92A8AA5B2B0C96AC00CF80B1 /* ContentViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewmodel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				929F1AF12B0B686800D186DE /* MapKitInSwiftUiApp.swift */,
+				92A8AA5B2B0C96AC00CF80B1 /* ContentViewmodel.swift */,
 				929F1AF32B0B686800D186DE /* ContentView.swift */,
 				929F1AF52B0B686E00D186DE /* Assets.xcassets */,
 				929F1AF72B0B686E00D186DE /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				929F1AF42B0B686800D186DE /* ContentView.swift in Sources */,
+				92A8AA5C2B0C96AC00CF80B1 /* ContentViewmodel.swift in Sources */,
 				929F1AF22B0B686800D186DE /* MapKitInSwiftUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
