@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		929D06222B0B9BE50028126C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		929F1AEE2B0B686800D186DE /* MapKitInSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitInSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929F1AF12B0B686800D186DE /* MapKitInSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitInSwiftUiApp.swift; sourceTree = "<group>"; };
 		929F1AF32B0B686800D186DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		929F1AF02B0B686800D186DE /* MapKitInSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				929D06222B0B9BE50028126C /* Info.plist */,
 				929F1AF12B0B686800D186DE /* MapKitInSwiftUiApp.swift */,
 				929F1AF32B0B686800D186DE /* ContentView.swift */,
 				929F1AF52B0B686E00D186DE /* Assets.xcassets */,
@@ -269,6 +271,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapKitInSwiftUi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapKitInSwiftUi/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "allow location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "allow location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +303,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MapKitInSwiftUi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapKitInSwiftUi/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "allow location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "allow location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
